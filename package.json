@@ -1,0 +1,29 @@
+{
+  "name": "aoc-floor",
+  "version": "1.0.0",
+  "description": "AdventOfCode floor problem.",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyvallee/aoc-1-floor.git"
+  },
+  "keywords": [
+    "adventofcode",
+    "day1",
+    "javascipt",
+    "node",
+    "js"
+  ],
+  "author": "Anthony Vallee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonyvallee/aoc-1-floor/issues"
+  },
+  "homepage": "https://github.com/anthonyvallee/aoc-1-floor#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}

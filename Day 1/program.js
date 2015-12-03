@@ -8,11 +8,13 @@ function parseJSON(data) {
 
 function count(object) {
   var floor = object.floor;
+  var basementIndex = null;
   var count = 0;
   for (var i = 0; i < floor.length; ++i) {
     (floor[i] == '(') ? count++ : count--;
+    if (!basementIndex && count < 0) basementIndex = i + 1;
   }
-  return '' + count;
+  return 'Floor is ' + count + ' and basement index is ' + basementIndex;
 }
 
 readFile('./input.json', 'utf-8')
